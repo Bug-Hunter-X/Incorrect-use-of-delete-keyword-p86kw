@@ -1,0 +1,1 @@
+int main() { int x = 10; int *ptr = new int; *ptr = x; // Use delete only for dynamically allocated memory delete ptr; ptr = nullptr; return 0; }
