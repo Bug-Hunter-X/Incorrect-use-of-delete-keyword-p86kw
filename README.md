@@ -1,0 +1,1 @@
+This repository demonstrates a common C++ error involving the misuse of the `delete` keyword.  The `bug.cpp` file contains the erroneous code, attempting to use `delete` on a stack-allocated variable. This can lead to crashes or unpredictable behavior. The corrected code is in `bugSolution.cpp`. 
